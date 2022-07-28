@@ -14,31 +14,35 @@ const Order = () => {
 		<div className="order">
 			<div className="stores">
 				<ul className="stores__list">
-					<li>
-						<a href="./">
-							<img src={store1} alt="Pyszne.pl logo" />
-						</a>
-					</li>
-					<li>
-						<a href="./">
-							<img src={store2} alt="Deligoo logo" />
-						</a>
-					</li>
-					<li>
-						<a href="./">
-							<img src={store3} alt="Glovo logo" />
-						</a>
-					</li>
-					<li>
-						<a href="./">
-							<img src={store4} alt="UberEats logo" />
-						</a>
-					</li>
-					<li>
-						<a href="./">
-							<img src={store5} alt="BoldFood logo" />
-						</a>
-					</li>
+					<ul className="stores__list__first">
+						<li>
+							<a href="./">
+								<img src={store1} alt="Pyszne.pl logo" />
+							</a>
+						</li>
+						<li>
+							<a href="./">
+								<img src={store2} alt="Deligoo logo" />
+							</a>
+						</li>
+						<li>
+							<a href="./">
+								<img src={store3} alt="Glovo logo" />
+							</a>
+						</li>
+					</ul>
+					<ul className="stores__list__second">
+						<li>
+							<a href="./">
+								<img src={store4} alt="UberEats logo" />
+							</a>
+						</li>
+						<li>
+							<a href="./">
+								<img src={store5} alt="BoldFood logo" />
+							</a>
+						</li>
+					</ul>
 				</ul>
 			</div>
 

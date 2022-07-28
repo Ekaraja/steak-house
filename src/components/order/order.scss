@@ -8,20 +8,25 @@
 .stores {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .stores__list {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    column-gap: 4.25rem;
-    align-items: center;
+    display: flex;
+    position: relative;
 
     li {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: .875rem 0;
+        padding: .875rem 5vw;
     }
+
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 /* ====================== BODY ====================== */
@@ -29,7 +34,7 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 3rem;
-    padding: 1.5rem;
+    padding: 0 1.5rem;
 }
 
 .card {
@@ -111,10 +116,80 @@
     }
 }
 
+@media screen and (max-width: 880px) {
+
+}
+
 @media screen and (max-width: 710px) {
 
     .card {
         padding: 2rem;
         justify-content: center;
+    }
+
+    .stores__list {
+        flex-direction: column;
+    }
+
+    .stores__list__second {
+        position: absolute;
+        left:10%;
+        opacity: 0;
+        animation: fadeOut 4s ease-in-out 5s infinite;
+        animation: name duration timing-function delay iteration-count direction fill-mode;
+    }
+
+    @keyframes fadeOut {
+        0% {
+            opacity: 0;
+        }
+
+        25% {
+            opacity: 1;
+        }
+
+
+        50% {
+            opacity: 1;
+        }
+
+        75% {
+            opacity: 1;
+        }
+
+    
+        100% {
+            opacity: 0;
+        }
+    }
+
+    .stores__list__first {
+        opacity: 1;
+        animation: fadeIn 4s ease-in-out infinite;
+        animation-delay: 5s;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 1;
+        }
+
+        25% {
+            opacity: 0;
+        }
+
+
+        50% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+    
+        100% {
+            opacity: 1;
+        }
     }
 }
