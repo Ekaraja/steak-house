@@ -85,10 +85,12 @@
     display: none;
     position: fixed;
     width: 50px;
-    height: 100px;
+    height: auto;
     left: 36px;
-    top: -10px;
+    top: 1rem;
     cursor: pointer;
+
+
 }
 
 .bm-burger-bars {

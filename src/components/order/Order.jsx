@@ -71,9 +71,9 @@ const Order = () => {
 							Pobierz aplikację UberEats już dziś.
 						</p>
 						<div className="card__icon">
-							<img src={playStore} alt="playStore-icon" />
-							<img src={appStore} alt="appStore-icon" />
-							<img src={huawei} alt="huawei-icon" />
+							<a href="./"><img src={playStore} alt="playStore-icon" /></a>
+							<a href="./"><img src={appStore} alt="appStore-icon" /></a>
+							<a href="./"><img src={huawei} alt="huawei-icon" /></a>
 						</div>
 						<a href="./"><button className="btn">Zamów online</button></a>
 					</div>
