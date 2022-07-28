@@ -3,6 +3,7 @@
 .hero__container {
     display: flex;
     min-height: 38rem;
+    z-index: -99;
 }
 
 .hero__left {

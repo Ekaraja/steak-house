@@ -135,26 +135,34 @@
         position: absolute;
         left:10%;
         opacity: 0;
-        animation: fadeOut 4s ease-in-out 5s infinite;
+        animation: fadeOut 10s ease-in 5s infinite;
         animation: name duration timing-function delay iteration-count direction fill-mode;
     }
 
     @keyframes fadeOut {
-        0% {
-            opacity: 0;
+        10% {
+            opacity: 1;
         }
 
         25% {
             opacity: 1;
         }
 
+        40% {
+            opacity: .7;
+        }
+
+        45% {
+            opacity: 0;
+        }
+
 
         50% {
-            opacity: 1;
+            opacity: 0;
         }
 
         75% {
-            opacity: 1;
+            opacity: 0;
         }
 
     
@@ -165,13 +173,17 @@
 
     .stores__list__first {
         opacity: 1;
-        animation: fadeIn 4s ease-in-out infinite;
-        animation-delay: 5s;
+        animation: fadeIn 10s ease-in 5s infinite;
+        animation-delay: 4s;
     }
 
     @keyframes fadeIn {
         0% {
             opacity: 1;
+        }
+
+        10% {
+            opacity: 0;
         }
 
         25% {
@@ -183,8 +195,16 @@
             opacity: 0;
         }
 
+        60% {
+            opacity: .5;
+        }
+
+        65% {
+            opacity: 1;
+        }
+
         75% {
-            opacity: 0;
+            opacity: 1;
         }
 
     

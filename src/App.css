@@ -65,6 +65,9 @@
 /* ===================== GLOBAL ===================== */
 /* ================================================== */
 
+#main {
+    z-index: -1;
+}
 
 body::-webkit-scrollbar {
     display: none;
@@ -88,6 +91,8 @@ a {
     color: var(--color-white);
     font-size: var(--fs-body-s);
     line-height: var(--lh-body-s);
+    font-family: var(--fw-semiBold);
+    cursor: pointer;
 }
 
 .highlight-black {

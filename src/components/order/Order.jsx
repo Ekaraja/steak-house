@@ -56,7 +56,7 @@ const Order = () => {
 								39 zł
 							</span>
 						</p>
-						<button className="btn">Zamów online</button>
+						<a href="./"><button className="btn">Zamów online</button></a>
 					</div>
 				</article>
 
@@ -75,7 +75,7 @@ const Order = () => {
 							<img src={appStore} alt="appStore-icon" />
 							<img src={huawei} alt="huawei-icon" />
 						</div>
-						<button className="btn">Zamów online</button>
+						<a href="./"><button className="btn">Zamów online</button></a>
 					</div>
 				</article>
 			</div>
