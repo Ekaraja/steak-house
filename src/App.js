@@ -1,11 +1,14 @@
-import Contact from './components/contact/Contact';
+import Order from './components/order/Order';
 import Navbar from './components/nav/Navbar';
+import Hero from './components/hero/Hero';
+import "./App.css"
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Contact/>
+      <Hero/>
+      <Order/>
     </div>
   );
 }
