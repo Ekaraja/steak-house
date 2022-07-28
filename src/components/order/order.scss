@@ -6,13 +6,11 @@
 
 /* ===================== STORES ===================== */
 .stores {
-    border: 5px solid orange;
     display: flex;
     justify-content: center;
 }
 
 .stores__list {
-    background: rgb(255, 174, 174);
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     column-gap: 4.25rem;
@@ -30,8 +28,6 @@
 .order-body__container {
     display: flex;
     gap: 1rem;
-    /* padding-bottom: 5.625rem; */
-    border: 5px solid green;
     margin-bottom: 3rem;
 }
 
@@ -43,10 +39,6 @@
     border-radius: 7px;
     color: var(--color-white);
     background: var(--color-black);
-    /*     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 5rem; */
-    border: 3px solid red;
     height: 415px;
 
     h3 {
@@ -60,7 +52,6 @@
         font-size: var(--fs-body-m);
         line-height: var(--lh-body-l);
         margin-bottom: 0.875rem;
-        border: 1px solid #eee;
     }
 }
 
@@ -83,12 +74,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(65%);
-
 }
 
 .card__body {
     position: relative;
-    border: 3px solid blue;
     width: 300px;
 }
 
@@ -104,12 +93,7 @@
     position: relative;
 
 
-    .card__body {
-        border: 1px solid #eee;
-    }
-
     img {
-        border: 1px solid #eee;
         align-self: end;
     }
 
