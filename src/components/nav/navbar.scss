@@ -1,0 +1,163 @@
+/* ================================================== */
+/* ===================== NAVBAR ===================== */
+/* ================================================== */
+
+
+.nav__container {
+    padding: 0 7%;
+    height: 5rem;
+    background: var(--color-white);
+    border: 5px solid rgb(56, 240, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--fs-body-s);
+    line-height: var(--lh-body-l);
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 3.3125rem
+}
+
+.nav-left__list {
+    display: flex;
+    gap: 3.3125rem
+}
+
+.nav-right__list {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+
+        span {
+            line-height: .6rem;
+        }
+    }
+
+
+    .small-btn {
+        padding: .75rem 1.5625rem;
+        gap: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+/* Individual item */
+.bm-item {
+    display: inline-block;
+
+    /* Our sidebar item styling */
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #d1d1d1;
+    transition: color 0.2s;
+}
+
+/* Change color on hover */
+.bm-item:hover {
+    color: white;
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+    display: none;
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 1.5rem;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+    background: #373a47;
+    border-radius: 100vmax;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+    background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+    background: #373a47;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+    color: #b8b7ad;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+@media screen and (max-width: 1260px) {
+    .nav-left__list {
+        display: none;
+    }
+
+    .bm-burger-button {
+        display: block;
+        left: 11rem;
+    }
+
+}
+
+@media screen and (max-width: 710px) {
+
+    .bm-burger-button {
+        left: 8rem;
+    }
+
+
+    .hero__left {
+        width: 100%;
+        min-height: 35rem;
+    }
+
+    .nav-right__list {
+        gap: 1rem;
+
+        .small-btn {
+            padding: .75rem;
+            gap: 10px;
+        }
+    }
+
+}

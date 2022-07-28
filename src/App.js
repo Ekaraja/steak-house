@@ -5,10 +5,12 @@ import "./App.css"
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Hero/>
-      <Order/>
+    <div id="App">
+      <Navbar pageWrapId={"main"} outerContainerId={"nav"}/>
+      <main id="main">
+        <Hero/>
+        <Order/>
+      </main>
     </div>
   );
 }
