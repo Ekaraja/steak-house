@@ -45,11 +45,13 @@
 
 /* ===================== STORES ===================== */
 .stores {
-    /* border: 5px solid purple; */
-    padding: 0 18.75rem;
+    border: 5px solid orange;
+    display: flex;
+    justify-content: center;
 }
 
 .stores__list {
+    background: rgb(255, 174, 174);
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     column-gap: 4.25rem;
@@ -73,11 +75,13 @@
 }
 
 .card {
+    padding: 7.5rem;
+    display: flex;
+    align-items: center;
     width: 50%;
     border-radius: 7px;
     color: var(--color-white);
     background: var(--color-black);
-    padding: 5rem 7.75rem 5rem 7.25rem;
     /*     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 5rem; */
@@ -157,5 +161,13 @@
 
     .card {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 710px) {
+
+    .card {
+        padding: 2rem;
+        justify-content: center;
     }
 }

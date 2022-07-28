@@ -47,9 +47,7 @@ export default function Slider() {
 							<p>
 								Odio maxime odit nemo voluptates dolorem eveniet rerum
 								laudantium magnam
-								<span className="--bold"> saepe -15%</span> Lorem ipsum dolor
-								sit amet, consectetur adipisicing elit. Fugit saepe corrupti
-								iste laboriosam.
+								<span className="--bold"> saepe -15%</span>
 							</p>
 							<button className="btn">Zamów online</button>
 						</div>
