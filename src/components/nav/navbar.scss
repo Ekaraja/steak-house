@@ -132,21 +132,25 @@
 
     .bm-burger-button {
         display: block;
-        left: 11rem;
+        left: 2rem;
+    }
+
+    .logo {
+        margin: 0 2rem;
     }
 
 }
 
 @media screen and (max-width: 710px) {
 
-    .bm-burger-button {
-        left: 8rem;
-    }
-
 
     .hero__left {
         width: 100%;
         min-height: 35rem;
+    }
+
+    .logo {
+        margin: 0 4rem;
     }
 
     .nav-right__list {
@@ -157,5 +161,20 @@
             gap: 10px;
         }
     }
+
+
+
+}
+
+@media screen and (max-width: 475px) {
+
+    .logo {
+        display: none;
+    }
+
+    .bm-burger-button {
+        left: 1rem;
+    }
+    
 
 }
