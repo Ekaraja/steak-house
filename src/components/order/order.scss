@@ -74,6 +74,16 @@
 
 }
 
+.--red-highlight {
+    background: var(--color-danger);
+    padding: 2px 5px 0;
+}
+
+.--black-highlight {
+    background: var(--color-black);
+    padding: 2px 5px 0;
+}
+
 @media screen and (max-width: 1100px) {
     .order-body__container {
         flex-wrap: wrap;

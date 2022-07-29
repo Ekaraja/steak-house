@@ -107,7 +107,7 @@ a {
 
 .--bold {
     font-weight: 600;
-    font-family: var(--fw-main);
+    font-family: var(--fw-semiBold);
 }
 
 /* -------------- END GLOBAL -------------- */

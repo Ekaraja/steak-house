@@ -14,7 +14,7 @@ export const orderData = [
     {
         id: 2,
         title: "UberEats ",
-        description: <p>Zamawiaj w aplikacji <span className="--black-highlight">10% taniej.</span>Pobierz aplikację UberEats już dziś. </p>,
+        description: <p>Zamawiaj w aplikacji <span className="--red-highlight">10% taniej.</span> Pobierz aplikację UberEats już dziś. </p>,
         icon: true,
         icon1: playStore,
         icon2: appStore,
