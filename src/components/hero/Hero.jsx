@@ -1,14 +1,13 @@
-import Slider from "../slider/Slider";
-import "./hero.scss";
+import Slider from '../slider/Slider';
+import './hero.scss';
 
 function Hero() {
-	return (
-		<header className="hero__container">
-			<div className="hero__left">{<Slider />}</div>
-			<div className="hero__right">
-			</div>
-		</header>
-	);
+  return (
+    <header className="hero__container">
+      <div className="hero__left"><Slider /></div>
+      <div className="hero__right" />
+    </header>
+  );
 }
 
 export default Hero;

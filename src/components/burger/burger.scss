@@ -1,0 +1,109 @@
+.bm-item {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #272727;
+    transition: color 0.2s;
+    padding: 1rem;
+}
+
+
+.bm-item:hover {
+    color: rgb(163, 163, 163);
+}
+
+
+.bm-burger-button {
+    display: none;
+    position: fixed;
+    width: 50px;
+    height: auto;
+    left: 36px;
+    top: 1rem;
+    cursor: pointer;
+
+
+}
+
+.bm-burger-bars {
+    background: #373a47;
+    border-radius: 100vmax;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+    background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+    background: #e9e9e9;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+    color: #0f0f0f;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 1260px) {
+    .nav-left__list {
+        display: none;
+    }
+
+    .bm-burger-button {
+        display: block;
+        left: 2rem;
+    }
+
+    .logo {
+        margin: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .hero__left {
+        width: 100%;
+        min-height: 35rem;
+    }
+
+    .logo {
+        margin: 0 4rem;
+    }
+
+    .nav-right__list {
+        gap: 1rem;
+
+        .small-btn {
+            padding: .75rem;
+            gap: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .logo {
+        display: none;
+    }
+
+    .bm-burger-button {
+        left: 1rem;
+    }
+}

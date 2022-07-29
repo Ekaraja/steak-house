@@ -34,10 +34,12 @@
     justify-content: center;
 }
 
-
 // Style of slider pagination
 
-.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
     bottom: 2rem;
     left: 16%;
     width:auto;
@@ -66,31 +68,30 @@
     }
 
     h1 {
-     font-family: "Sofia Pro Bold";
-     font-weight: 700;
+        font-family: "Sofia Pro Bold";
+        font-weight: 700;
     }
-    
 }
 
 
 @media screen and (max-width: 1390px) {
     .slider__content {
         width: 85%;
-    
         p {
             width: 100%;
         }
-        
     }
 }
 
 
 @media screen and (max-width: 1100px) {
- 
-.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-    left: 40%;
-    right: 40%;
-    display: block;
-    margin: auto;
-}
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        left: 40%;
+        right: 40%;
+        display: block;
+        margin: auto;
+    }
 }
