@@ -1,7 +1,5 @@
 
 export const slideData = {
-
-
     slide1: {
         id: 1,
         title: <h1><span className="highlight-black">Rabat 10%</span> na pierwsze zamówienie! </h1>,
@@ -18,5 +16,4 @@ export const slideData = {
         title: <h1><span className="highlight-black">Eveniet</span> quod assumenda velit !</h1>,
             description: <p> Praesentium quam recusandae fugit facere quia necessitatibus <span className="--bold"> 1 gratis !</span> Excepturi, nulla nihil.</p>
     },
-
 }
