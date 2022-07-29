@@ -78,6 +78,10 @@
     .order-body__container {
         flex-wrap: wrap;
     }
+
+    .card {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 710px) {
@@ -85,6 +89,5 @@
     .card {
         padding: 2rem;
         justify-content: center;
-        width: 100%;
     }
 }
