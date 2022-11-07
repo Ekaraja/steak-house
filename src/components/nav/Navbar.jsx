@@ -17,41 +17,41 @@ function Navbar() {
           </div>
           <ul className="nav-left__list">
             <li>
-              <a href="#">Steaks</a>
+              <a href="./">Steaks</a>
             </li>
             <li>
-              <a href="#">Burgers</a>
+              <a href="./">Burgers</a>
             </li>
             <li>
-              <a href="#">French fries</a>
+              <a href="./">French fries</a>
             </li>
             <li>
-              <a href="#">Drinks</a>
+              <a href="./">Drinks</a>
             </li>
             <li>
-              <a href="#">Gdzie dowozimy?</a>
+              <a href="./">Gdzie dowozimy?</a>
             </li>
             <li>
-              <a href="#">Kontakt</a>
+              <a href="./">Kontakt</a>
             </li>
           </ul>
         </div>
         <div className="nav-right">
           <ul className="nav-right__list">
             <li>
-              <a href="#">
+              <a href="./">
                 <img src={user} alt="user-icon" />
                 <span>Moje konto</span>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="./">
                 <img src={cart} alt="cart-icon" />
                 <span>Koszyk</span>
               </a>
             </li>
             <li>
-              <a className="btn small-btn" href="#">
+              <a className="btn small-btn" href="./">
                 <img src={symbol} alt="symbol-icon" />
                 <span>Zamów </span>
               </a>

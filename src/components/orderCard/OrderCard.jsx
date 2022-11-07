@@ -7,19 +7,19 @@ function OrderCard({ order }) {
 
 				{order.icon && (
 					<div className="card__icon">
-						<a href="#">
+						<a href="./">
 							<img src={order.icon1} alt="playStore-icon" />
 						</a>
-						<a href="#">
+						<a href="./">
 							<img src={order.icon2} alt="appStore-icon" />
 						</a>
-						<a href="#">
+						<a href="./">
 							<img src={order.icon3} alt="huawei-icon" />
 						</a>
 					</div>
 				)}
 
-				<a href="#">
+				<a href="./">
 					<button type="button" className="btn">
 						Zamów online
 					</button>

@@ -8,7 +8,7 @@ function Slide(props) {
 			<div className="slider__content">
 				{props.title}
 				{props.description}
-				<a href="#">
+				<a href="./">
 					<button type="button" className="btn">
 						Zamów online
 					</button>
