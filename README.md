@@ -1,5 +1,4 @@
 
-![Logo](https://github.com/fbrv01/steak-house/blob/main/assets/icons/logo.svg)
 
 
 # STEAK HOUSE
@@ -24,7 +23,7 @@ Additional:
 Clone the project
 
 ```bash
-  git clone https://github.com/fbrv01/steak-house.git
+  git clone https://github.com/Ekaraja/steak-house.git
 ```
 
 Go to the project directory
